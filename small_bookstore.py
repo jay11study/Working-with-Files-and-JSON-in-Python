@@ -45,7 +45,7 @@ with open("inventory.json", "r") as f:
     updated_inventory = json.load(f)
 
 for book in updated_inventory:
-    print(f"Title: {book['title']} | Author: {book['author']} | Price: ${book['price']}")
+    print(f"Title: {book["title"]} | Author: {book["author"]} | Price: ${book["price"]}")
   
 #Explanation
 #The updated file is reopened in read mode.
