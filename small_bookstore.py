@@ -36,8 +36,7 @@ with open("inventory.json", "w") as f:
 #The append() is used to add the new book to the existing inventory list.
 #The file is opened in write mode which overwrites the existing file along with the new book.
 #json.dump() converts the updated Python list back into JSON format and writes it to the file.
-#indent=4 ensures the JSON file is formatted neatly and is readable.
-
+#indent=4 ensures the JSON file is formatted with 4 indent for each nested level.
 
 #Task 3 — Display the Updated Inventory
 
